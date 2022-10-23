@@ -24,7 +24,7 @@ changelink1.outerHTML = '<a href="https://devrelcareers.com/contact">contact us<
 
 if (window.location.href.replaceAll(window.location.origin, '').replaceAll('/','').length === 0 ) {
 let cover = document.querySelector('.cover');
-cover.innerHTML = '<lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/banner.json"  background="#251B37"  speed="1"  style="width: unset; height: 300px;"  loop  autoplay></lottie-player>';
+cover.innerHTML = '<lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/banner.json"  background="#251B37"  speed="1"  style="width: 100%; height: 300px;"  loop  autoplay></lottie-player>';
 }
 
 
