@@ -12,10 +12,9 @@ addlink1.outerHTML += '<li><a href="/talent-pool">Talent Pool</a></li>';
 let changelink = document.querySelector('#footer-info > li.email');
 changelink.outerHTML = '<li class="email"><a href="https://devrelcareers.com/contact">Contact</a></li>';
 
-
 if (window.location.href.indexOf('job') != -1) {
 let addbox = document.querySelector('.company-box');
-addbox.outerHTML += '<div class="company-box" style="margin-top: 30px;"><h2 class="company-name"><a href="/talent-pool">Talent Pool</a></h2><p class="company-tagline">Join our pool of DevRels</p><a href="/talent-pool"><lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/join-talent-pool.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player></a></div>';
+addbox.outerHTML += '<div class="company-box" style="margin-top: 30px;"><h2 class="company-name"><a href="/talent-pool">Talent Pool</a></h2><p class="company-tagline">Join our pool of DevRels</p><a href="/talent-pool"><lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/join-talent-pool.json"  background="transparent"  speed="1"  style="width: auto; height: auto;"  loop  autoplay></lottie-player></a></div>';
 }
 
 if (window.location.href.indexOf('post') != -1) {
