@@ -14,8 +14,10 @@ changelink.outerHTML = '<li class="email"><a href="https://devrelcareers.com/con
 
 if (window.location.href.indexOf('job') != -1) {
 let addbox = document.querySelector('.company-box');
-addbox.outerHTML += '<div class="company-box" style="margin-top: 30px;"><h2 class="company-name"><a href="/talent-pool">Talent Pool</a></h2><p class="company-tagline">Join our pool of DevRels</p><a href="/talent-pool"><lottie-player loding="lazy" src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/join-talent-pool.json"  background="transparent"  speed="1"  style="width: auto; height: auto;"  loop  autoplay></lottie-player></a></div>';
+addbox.outerHTML += '<div class="company-box lazyload" style="margin-top: 30px;"><h2 class="company-name"><a href="/talent-pool">Talent Pool</a></h2><p class="company-tagline">Join our pool of DevRels</p><a href="/talent-pool"><lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/join-talent-pool.json"  background="transparent"  speed="1"  style="width: auto; height: auto;"  loop  autoplay></lottie-player></a></div>';
 }
+
+
 
 if (window.location.href.indexOf('post') != -1) {
 let changelink1 = document.querySelector('#app > div.boxes.cf > div.postpage-marketing-box.cf > section > p:nth-child(3) > a');
@@ -26,5 +28,4 @@ if (window.location.href.replaceAll(window.location.origin, '').replaceAll('/','
 let cover = document.querySelector('.cover');
 cover.innerHTML = '<lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/banner.json"  background="#251B37"  speed="1"  style="width: 100%; height: 300px;"  loop  autoplay></lottie-player>';
 }
-
 
