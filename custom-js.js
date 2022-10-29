@@ -22,7 +22,7 @@ let changelink1 = document.querySelector('#app > div.boxes.cf > div.postpage-mar
 changelink1.outerHTML = '<a href="https://devrelcareers.com/contact">contact us</a>';
 }
 
-if (window.location.href.replaceAll(window.location.origin, '').replaceAll('/','').length === 0 ) {
+if (window.location.href.replaceAll(window.location.origin, '').replaceAll('/','').length === 0 ) || if (window.location.href.indexOf('/?') != -1) {
 let cover = document.querySelector('.cover');
 cover.innerHTML = '<lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/banner.json"  background="#251B37"  speed="1"  style="width: 100%; height: 300px;"  loop  autoplay></lottie-player>';
 }
