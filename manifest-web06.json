@@ -5,9 +5,9 @@
   "display": "minimal-ui",
   "name": "DevRel Careers",
   "orientation": "any",
-  "scope": "https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/",
+  "scope": "/",
   "short_name": "DevRel Careers",
-  "start_url": "https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/",
+  "start_url": "/",
   "theme_color": "#251b37",
   "categories": [
     "business"
