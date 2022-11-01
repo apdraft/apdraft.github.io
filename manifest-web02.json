@@ -15,17 +15,21 @@
   "screenshots": [],
   "icons": [
     {
-      "src": "https://cdn.niceboard.co/boards/devrelcareers/assets/favicon-IzePxM416.png",
+      "src": "https://cdn.niceboard.co/boards/devrelcareers/assets/favicon-IzePxM416-32x32.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "32x32"
     },
     {
       "src": "https://apdraft.github.io/logo-pwa.png",
       "type": "image/png",
       "sizes": "1024x1024"
     },
- 
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
   ],
   "shortcuts": [],
   "lang": "en"
+}"lang": "en"
 }
