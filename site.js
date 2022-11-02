@@ -32,6 +32,4 @@ let cover = document.querySelector('.cover');
 cover.innerHTML = '<lottie-player src="https://cdn.jsdelivr.net/gh/apdraft/apdraft.github.io/banner.json"  background="#251B37"  speed="1"  style="width: 100%; height: 300px;"  loop  autoplay></lottie-player>';
 }
 
-importScripts( "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" );
-
 
