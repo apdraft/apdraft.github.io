@@ -13,7 +13,7 @@ let changelink = document.querySelector('#footer-info > li.email');
 changelink.outerHTML = '<li class="email"><a href="https://devrelcareers.com/contact">Contact</a></li>';
 
 let addSocial = document.querySelector('footer .share-links li');
-addSocial.outerHTML += '<li class="twitter"><a href="https://twitter.com/devrelcareers" target="_blank">Twitter</a></li>';
+addSocial.outerHTML += '<li class="tiktok"><a href="https://tiktok.com/@devrelcareers" target="_blank">TikTok</a></li>';
 
 
 
