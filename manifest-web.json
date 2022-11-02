@@ -1,35 +1,21 @@
 {
-  "background_color": "#ffffff",
-  "description": "Find DevRel, Developer Marketing and Developer Advocate jobs remotely, in the USA, Europe and worldwide and make the next step in your professional DevRel career.",
-  "dir": "ltr",
-  "display": "minimal-ui",
-  "name": "DevRel Careers",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "DevRel Careers",
-  "start_url": "/",
-  "theme_color": "#251b37",
-  "categories": [
-    "business"
-  ],
-  "screenshots": [],
-  "icons": [
-    {
-      "src": "https://cdn.niceboard.co/boards/devrelcareers/assets/favicon-IzePxM416-32x32.png",
-      "type": "image/png",
-      "sizes": "32x32"
-    },
-    {
-      "src": "https://apdraft.github.io/logo-pwa.png",
-      "type": "image/png",
-      "sizes": "1024x1024"
-    },
-    {
-      "src": "/favicon.ico",
-      "type": "image/x-icon"
-    }
-  ],
-  "shortcuts": [],
-  "lang": "en"
+    "short_name": "DRC",
+    "name": "DevRel Carerrs",
+    "description": "Find DevRel, Developer Marketing and Developer Advocate jobs remotely, in the USA, Europe and worldwide and make the next step in your professional DevRel career.",
+    "icons": [
+      {
+        "src": "https://cdn.niceboard.co/boards/devrelcareers/assets/favicon-IzePxM416-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "https://apdraft.github.io/logo-pwa.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#000000",
+    "display": "standalone",
+    "theme_color": "#251b37"
   }
-
