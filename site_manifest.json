@@ -14,8 +14,11 @@
         "sizes": "1024x1024"
       }
     ],
-    "start_url": "https://devrelcareers.com",
+    "start_url": "https://devrelcareers.com/",
+    "scope": "https://devrelcareers.com/",
     "background_color": "#fff",
+    "dir": "ltr",
+    "display": "minimal-ui",
     "display": "standalone",
     "theme_color": "#251b37"
   }
