@@ -1,3 +1,4 @@
+
 let foot = document.querySelector('footer');
 foot.innerHTML += '<div class="footer-low"><p>Made with <img style="display: inline-flex; height: 13px; width: 13px;" src="https://apdraft.github.io/love-icon.svg" alt="Love Icon"> & <img style="display: inline-flex; height: 15px; width: 15px;" src="https://apdraft.github.io/coffee-icon.svg" alt="Coffe Icon"></p><p>Powered by <a href="https://www.draft.dev">draft.dev</a> <span> | ©2022 DevRel Careers. All Rights Reserved</span></p></div>';
 
@@ -15,7 +16,8 @@ changelink.outerHTML = '<li class="email"><a href="https://devrelcareers.com/con
 let addSocial = document.querySelector('footer .share-links li');
 addSocial.outerHTML += '<li class="tiktok"><a href="https://tiktok.com/@devrelcareers" target="_blank">TikTok</a></li>';
 
-
+let addBlog = document.querySelector('#footer-info > li.email');
+addBlog.outerHTML += '<li class="blog"><a href="https://devrelcareers.com/blog" target="_blank">DevRel Blog</a></li>';
 
 if (window.location.href.indexOf('job') != -1) {
 let addbox = document.querySelector('.company-box');
