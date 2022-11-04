@@ -17,7 +17,7 @@ let addSocial = document.querySelector('footer .share-links li');
 addSocial.outerHTML += '<li class="tiktok"><a href="https://tiktok.com/@devrelcareers" target="_blank">TikTok</a></li>';
 
 let addBlog = document.querySelector('#footer-info > li.email');
-addBlog.outerHTML += '<li class="blog"><a href="https://devrelcareers.com/blog" target="_blank">DevRel Blog</a></li>';
+addBlog.outerHTML += '<li class="blog"><a href="https://devrelcareers.com/blog">DevRel Blog</a></li>';
 
 if (window.location.href.indexOf('job') != -1) {
 let addbox = document.querySelector('.company-box');
