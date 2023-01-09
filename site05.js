@@ -1,6 +1,6 @@
 
 let foot = document.querySelector('footer');
-foot.innerHTML += '<div class="footer-low"><p>Made with <img style="display: inline-flex; height: 13px; width: 13px;" src="https://apdraft.github.io/love-icon.svg" alt="Love Icon"> & <img style="display: inline-flex; height: 15px; width: 15px;" src="https://apdraft.github.io/coffee-icon.svg" alt="Coffe Icon"></p><p>Powered by <a href="https://www.draft.dev">draft.dev</a> <span> | ©2022 DevRel Careers. All Rights Reserved</span></p></div>';
+foot.innerHTML += '<div class="footer-low"><p>Made with <img style="display: inline-flex; height: 13px; width: 13px;" src="https://apdraft.github.io/love-icon.svg" alt="Love Icon"> & <img style="display: inline-flex; height: 15px; width: 15px;" src="https://apdraft.github.io/coffee-icon.svg" alt="Coffe Icon"></p><p>Powered by <a href="https://www.draft.dev">draft.dev</a> <span> | ©2023 DevRel Careers. All Rights Reserved</span></p></div>';
 
 $(".js-open-modal").click(function(){  $(".modal").addClass("visible");});$(".js-close-modal").click(function(){  $(".modal").removeClass("visible");});$(document).click(function(event) {  if (!$(event.target).closest(".modal,.js-open-modal").length) {    $("body").find(".modal").removeClass("visible");  }});
 
